@@ -10,28 +10,50 @@ namespace VariablesOperatorsExpressionsDay2
     {
         static void Main(string[] args)
         {
-            string name = "Holly";
-            //Console.WriteLine(name);
-
-            name = "Dave";
-            //Console.WriteLine(name);
      
-            int birthMonthNumber = 3;
-            int age = 44;
-            int population = 1000000;
-            //floating type variables
-            float number = 2.164403304897294383961032f;
-            double someNumber = 2.164403304897294383961032;
-            decimal partialNumber = 2.164403304897294383961032m;
-
+ 
             int amountPaidEach = 13;
             int numberOfFriends = 4;
             int totalBill = amountPaidEach * numberOfFriends;
-            Console.WriteLine(totalBill);
+            Console.WriteLine("The total bill was: {0}", totalBill);
+
+            int totalSugar = 7;
+            int amtSugarAdded = 2;
+            int remainingSugarNeeded = totalSugar - amtSugarAdded;
+            Console.WriteLine("The remaining sugar needed is: {0}", remainingSugarNeeded);
+
+            int costOfDiapers = 8;
+            int availableDiaperMoney = 40;
+            int numDiapersCanBuy = availableDiaperMoney/costOfDiapers;
+            Console.WriteLine("Number of diapers can buy: {0}", numDiapersCanBuy);
+
+            int moneyLastWeek = 29;
+            int totalMoneyCurrent = 41;
+            int moneyReceived = totalMoneyCurrent - moneyLastWeek;
+            Console.WriteLine("Trevon received: {0}", moneyReceived);
+
+            int juliasMiles = 47;
+            int previousMiles = 30;
+            int pranavsMiles = juliasMiles - previousMiles;
+            Console.WriteLine("Pranav ran: {0}", pranavsMiles);
+
+            int envelopeCostPerBox = 3;
+            int budgetForEnvelopes = 12;
+            int numEnvelopeBoxesCanBuy = budgetForEnvelopes / envelopeCostPerBox;
+            Console.WriteLine("Number of boxes of envelopes can purchase: {0}", numEnvelopeBoxesCanBuy);
+
+            decimal moneyPaidForSalad = 5.12m;
+            decimal norachaisTotalMoney = 27.10m;
+            decimal norachaisMoneyBeforePurchase = norachaisTotalMoney + moneyPaidForSalad;
+            Console.WriteLine("Amount of money Norachai had prior to purchase: {0}", norachaisMoneyBeforePurchase);
 
 
-         
- 
+
+
+
+
+
+
 
 
         }
